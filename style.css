@@ -1,0 +1,23 @@
+.main {
+    border:1px solid rgb(36, 36, 36);
+    border-radius: 5px 5px 5px 5px;
+    width: fit-content;
+    margin: 200px auto;
+    padding:  8px 5px 8px 5px;
+    text-align: center;
+    background-image: url(images/Untitled-1.svg);
+}
+#screen {
+    border: .5px solid gray;
+    background-color: rgb(226, 219, 219);
+    width: 25em;
+    height: 4em;
+    border-radius: 8px 8px 8px 8px;
+    font-weight: bolder;
+}
+.Btn {
+    box-shadow: 0px 5px 5px gray;
+    margin: 6px;
+    border-radius: 10px 10px 10px 10px;
+    width: 84px;
+}

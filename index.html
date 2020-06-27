@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main">
+        <div id="Screen">
+            <input type="text" id="screen">
+        </div>
+        <div>
+            <button type="button" class="Btn btn btn-primary" onclick="getNumber('%')">%</button>
+            <button type="button" class="Btn btn btn-primary" onclick="getNumber('√')">√</button>
+            <button type="button" class="Btn btn btn-primary">x<sup>2</sup></button>
+            <button type="button" class="Btn btn btn-primary"><sup>1</sup>/x</button>
+        </div>
+        <div>
+            <button type="button" class="Btn btn btn-dark">CE</button>
+            <button type="button" class="Btn btn btn-dark" onclick="clearScrn()">C</button>
+            <button type="button" class="Btn btn btn-dark" onclick="getNumber('erase')">&#9003</button>
+            <button type="button" class="Btn btn btn-primary" onclick="getNumber('/')">/</button>
+        </div>
+        <div>
+            <button type="button" class="Btn btn btn-light" onclick="getNumber('7')">7</button>
+            <button type="button" class="Btn btn btn-light" onclick="getNumber('8')">8</button>
+            <button type="button" class="Btn btn btn-light" onclick="getNumber('9')">9</button>
+            <button type="button" class="Btn btn btn-primary" onclick="getNumber('*')">x</button>
+        </div>
+        <div>
+            <button type="button" class="Btn btn btn-light" onclick="getNumber('4')">4</button>
+            <button type="button" class="Btn btn btn-light" onclick="getNumber('5')">5</button>
+            <button type="button" class="Btn btn btn-light" onclick="getNumber('6')">6</button>
+            <button type="button" class="Btn btn btn-primary" onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button type="button" class="Btn btn btn-light" onclick="getNumber('1')">1</button>
+            <button type="button" class="Btn btn btn-light" onclick="getNumber('2')">2</button>
+            <button type="button" class="Btn btn btn-light" onclick="getNumber('3')">3</button>
+            <button type="button" class="Btn btn btn-primary" onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button type="button" class="Btn btn btn-light">&#xB1</button>
+            <button type="button" class="Btn btn btn-light" onclick="getNumber('0')">0</button>
+            <button type="button" class="Btn btn btn-light" onclick="getNumber('.')">.</button>
+            <button type="button" class="Btn btn btn-primary" onclick="getResult()">=</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
